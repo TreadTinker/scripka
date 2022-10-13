@@ -291,8 +291,8 @@ table {
 
 /*-------------Gallery---------------*/
 .gallery-container {
-  max-width: 1010px;
-  margin: 0 70px 0 170px;
+  max-width: 1240px;
+  padding: 0 60px 0 170px;
 }
 
 .gallery {
@@ -335,4 +335,25 @@ table {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 45px;
+}
+
+/*--------------INTERVIEW----------------*/
+.main-container {
+  max-width: 1250px;
+}
+
+.first-section {
+  padding: 100px 170px 30px 100px;
+}
+
+.image-with-text {
+  display: flex;
+}
+
+.text-block {
+  margin-right: 70px;
+}
+
+.second-section {
+  padding: 30px 170px 100px 100px;
 }

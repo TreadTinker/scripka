@@ -293,8 +293,8 @@ table {
 
 /*-------------Gallery---------------*/
 .gallery-container {
-    max-width: 1010px;
-    margin: 0 70px 0 170px;
+    max-width: 1240px;
+    padding: 0 60px 0 170px;
 }
 .gallery {
     margin-top: 120px;
@@ -329,4 +329,55 @@ table {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 45px;
+}
+
+/*--------------INTERVIEW----------------*/
+
+
+.main {
+}
+.main-container {
+    max-width: 1250px;
+    
+}
+.first-section {
+    padding: 100px 170px 30px 100px;
+}
+.wrapper {
+}
+.image-with-text {
+    display: flex;
+}
+.text-block {
+    margin-right: 70px;
+}
+.subtitle {
+}
+.qoute {
+    
+}
+.image-block {
+}
+.interview-image {
+}
+.second-section {
+    padding: 30px 170px 100px 100px;
+}
+.items-text {
+}
+.item-1 {
+}
+.item-2 {
+}
+.correspondent {
+}
+.eleonora-interview {
+}
+.eleonora-interciew {
+}
+.item-3 {
+}
+.eleonora-intreview {
+}
+.item-4 {
 }

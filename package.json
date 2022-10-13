@@ -41,6 +41,7 @@
     "gulp-zip": "latest",
     "sass": "latest",
     "swiper": "latest",
+    "tailwindcss": "^3.1.8",
     "vinyl-fs": "^3.0.3",
     "vinyl-ftp": "latest",
     "webp-converter": "2.2.3",
