@@ -280,7 +280,7 @@ table {
     flex-direction: column;
     gap: 22px;
     font-family: SF;
-
+    margin-bottom: 34px;
 }
 .tel-link {
 }
@@ -380,4 +380,121 @@ table {
 .eleonora-intreview {
 }
 .item-4 {
+}
+
+/*POPUP*/
+.popup_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(54, 54, 54, 0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+.open-popup{
+    margin-top: 64px;
+    padding: 18px 41px;
+    width: 210px;
+    height: 59px;
+    background-color: #69766D;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #fff;
+    transition: .3s all ease;
+}
+.open-popup:hover {
+    color: gray;
+    transition: .3s all ease;
+}
+.popup_bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+    z-index: 5;
+}
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #F6F6F5;
+    transform: translate(-50%, -50%) scale(0);
+    width: 746px;
+    height: 518px;
+    transition: 0.5s all;
+    z-index: 3;
+}
+.popup.active {
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+    z-index: 4;
+}
+.popup-title {
+    margin-top: 64px;
+    margin-bottom: 62px;
+    text-align: center;
+}
+.close-popup {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 26px;
+    right: 26px;
+    cursor: pointer;
+}
+.popup label {
+    margin-left: 113px;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.popup-title {
+    font-family: "Garamond";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 47px;
+    color: #161616;
+}
+.popup .label__text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #161616;
+}
+.popup input {
+    margin-top: 10px;
+    width: 521px;
+    height: 40px;
+    background: #FEFEFE;
+    border: 0.5px solid #E4E4E4;
+}
+.popup input:focus {
+    background: #FEFEFE;
+    border: 0.5px solid #D8BFA9;
+}
+.label__text-under {
+    font-family: "Garamond";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #69766D;
+}
+.popup-btn {
+    position: absolute;
+    left: 35%;
+    width: 227px;
+    height: 59px;
+    margin-bottom: 64px;
+    background-color: #C1C1C1;
+    border: 0;
 }

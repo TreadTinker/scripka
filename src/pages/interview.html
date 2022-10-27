@@ -39,6 +39,26 @@
             </div>    
         </header>
         <main class="main">
+            <div class="popup_bg">
+                <form action="" class="popup">
+                    <img class="close-popup" src="../img/close.svg" alt="close">
+                    <h3 class="popup-title">Обратный звонок</h3>
+                    <label>
+                        <input type="text" name="name">
+                        <div class="label__text">
+                        *Имя
+                        </div>
+                    </label>
+                    <label>
+                        <input type="tel" name="tel">
+                        <div class="label__text">
+                        *Телефон
+                        </div>
+                    </label>
+                    <label class="label__text-under">*Нажимия кнопку “Оставить заявку” я даю согласие на обработку данных</label>
+                    <button class="main-button_zakaz popup-btn" type="submit"><span class="link">Отправить заявку</span></button>
+                </form>
+            </div>
             <div class="main-container">
                 <section class="first-section">
                     <div class="wrapper">
@@ -230,10 +250,12 @@
                             <a class="tel-link" href="tel:+39725000000"><span class="tel-number">+39725000000</span></a>
                             <a class="email-link" href="mailto:gudkova@mart.foundation"><span class="email-address">gudkova@mart.foundation</span></a>
                         </div>
+                        <a href="" class="open-popup">Связаться с нами</a>
                     </div>
                 </div>
             </div>
         </footer>
     </div>
+    <script src="../js/index.js"></script>
 </body>
 </html>
